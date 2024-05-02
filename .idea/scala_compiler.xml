@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="scc-akka-app_7612" />
+    <profile name="sbt 2" modules="scc-akka-app">
+      <parameters>
+        <parameter value="-Wunused" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/Users/nikita_levchenko/IdeaProjects/pets-service-akka/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.6/4.4.20/semanticdb-scalac_2.13.6-4.4.20.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
